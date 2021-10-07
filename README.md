@@ -78,7 +78,7 @@ PLAY RECAP *********************************************************************
 
 Run ping playbook using the ansible-playbook command as shown below
 ```
-ansible-playbook -i hosts ping.yml
+ansible-playbook -i hosts simple-ping.yml
 ```
 
 ### Sample Output
