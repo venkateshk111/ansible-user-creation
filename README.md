@@ -53,7 +53,7 @@ BECOME password[defaults to SSH password]:
 
 ### Sample Output
 ```
-[ansible@ip-172-31-4-254 automation]$ ansible-playbook -i hosts UserCreation.yml -k -K
+[ansible@ip-172-31-4-254 automation]$ ansible-playbook -i hosts user-creation.yml -k -K
 SSH password:
 BECOME password[defaults to SSH password]:
 
@@ -226,8 +226,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
- 
