@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  remote_user: "{{ remote_user_id }}"
+  gather_facts: no
+  roles:
+  - ansible-user-creation
+
+

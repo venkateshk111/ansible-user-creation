@@ -1,0 +1,14 @@
+--- # YAML file to ping all the hosts
+- hosts: all
+  #remote_user: ansible
+  gather_facts: no
+
+  tasks:
+  - name: ping all the hosts from inventory file
+    ping:
+    register: ping_pong
+
+  - name: Print ping Results
+    debug:
+      var: ping_pong
+
