@@ -1,5 +1,6 @@
 [all:vars]
 #ansible_python_interpreter=/usr/bin/python3
+ansible_user=ansible
 
 [linux]
 172.31.88.87
