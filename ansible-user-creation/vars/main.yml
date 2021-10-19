@@ -1,6 +1,6 @@
 ---
 # vars file for AnsibleUserCreation
 
-remote_user_id: venkatesh # Replace this entry (venkatesh) with the user name configured on managed nodes that will be used as remote_user
+remote_user_id: jenkins # Replace this entry (venkatesh) with the user name configured on managed nodes that will be used as remote_user
 ansible_user_id : ansible # Replace this entry (ansible) with the user name for Ansible service id to be created on managed nodes
-group_name : ansiblegrp # Replace this entry (ansiblegrp) with group name for Ansible service id
+group_name : ansible-grp # Replace this entry (ansiblegrp) with group name for Ansible service id
